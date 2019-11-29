@@ -1,2 +1,2 @@
 # lit-page
-- Please make your PR to the "staging" branch.
+- Please make your PR to the respective branches (i.e frontend or back end)
