@@ -11,7 +11,6 @@ const navSlide = () => {
     navlinks.forEach((link, index) => {
       link.style.animation = `navLinkFade 0.5s ease forwards ${index / 5 +
         0.5}s`;
-      console.log(index / 8 + 1.5);
     });
     //Burger Animation; change/toggle its class to 'toggle' class
     burger.classList.toggle("toggle");
