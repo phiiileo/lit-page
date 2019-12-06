@@ -58,6 +58,7 @@ nav {
 
   nav {
     background-color: #0580b9;
+    z-index: 1;
   }
 
   .nav-logo {
