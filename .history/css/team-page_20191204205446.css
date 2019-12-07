@@ -1,0 +1,11 @@
+* {
+  margin-top: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.team-image{
+    width: 180px;
+    height: 2px;
+    border-radius: 50%; 
+}
