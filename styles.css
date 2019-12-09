@@ -1,0 +1,80 @@
+
+body{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    
+}
+
+.about{
+    background: #0580B9;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;;
+}
+
+.profile{
+    color: #353535;
+    text-align: center;
+}
+
+hr{
+    width:5%;
+    margin-top: 5px;
+}
+
+.para{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.section{
+    background: #EDEDED;
+    text-align: center;
+}
+
+.take{
+    padding-top: 20px;
+}
+
+button{
+    background: #0580B9;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    transition: 0.3s ;
+    cursor: pointer;4
+    font-weight: bold;
+}
+
+.ready{
+    font-size: 20px;
+}
+
+button:hover{
+    border: 1px solid #353535;
+    color: #353535;
+    background: white;
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
