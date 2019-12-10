@@ -41,3 +41,8 @@
 li{
     border-radius: 25px;
 }
+
+.content {
+    position: relative;
+    z-index: -10;
+}
