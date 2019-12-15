@@ -75,7 +75,11 @@ main {
 }
 
 @media screen and (max-width: 560px) {
-    *{
+    * {
         font-size: 1em !important;
+    }
+    
+    .form_container h3 {
+        text-align: center;
     }
 }

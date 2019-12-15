@@ -58,7 +58,7 @@ nav {
 
   nav {
     background-color: #0580b9;
-    z-index: 99;
+    z-index: 9999999;
   }
 
   .nav-logo {
@@ -78,7 +78,8 @@ nav {
     background-color: #0580b9;
     transform: translateX(50%);
     transition: transform 0.5s ease-in;
-    z-index: -1;
+    z-index: 9999999;
+    opacity: 0.9;
   }
 
   body {
@@ -107,6 +108,7 @@ nav {
   to {
     opacity: 1;
     transform: translateX(0px);
+    color: #fff;
   }
 }
 
