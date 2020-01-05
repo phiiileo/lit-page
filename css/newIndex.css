@@ -24,7 +24,7 @@ img {
 
 header {
   background-color: white;
-  padding: 50px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -46,10 +46,32 @@ header nav a {
   font-weight: bold;
 }
 
+@media screen and (max-width: 560px) {
+  header nav {
+    display: block;
+    position: relative;
+    padding-top: 150px;
+  }
+  header nav a {
+    display: block;
+    display: none;
+  }
+  header nav a.logo {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    margin: 0;
+    width: 100%;
+  }
+}
+
 .control {
   font-size: 30px;
   position: absolute;
   color: white;
+  top: 50%;
 }
 
 .control--left {
@@ -265,6 +287,13 @@ header nav a {
   margin: 30px 0;
   font-size: 14px;
   line-height: 21px;
+}
+
+@media screen and (max-width: 560px) {
+  .row1 {
+    display: block;
+    padding: 5%;
+  }
 }
 
 footer {
