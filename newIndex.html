@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home | Lixir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/newIndex.css">
 </head>
 
@@ -15,74 +17,82 @@
             <nav>
                 <a href="#">Home</a>
                 <a href="#">About Us</a>
-                <a href="#"><img src="images/brand_logo.png" alt=""></a>
+                <a><img src="images/brand_logo.png" alt=""></a>
                 <a href="#">Portfolio</a>
                 <a href="#">Contact Us</a>
             </nav>
         </header>
         <main>
             <section class="row1">
-                <div>
+                <i class="fa fa-angle-left control control--left"></i>
+                <div class="cta">
                     <h3>Giving life to your project</h3>
                     <button>Start A Project Now</button>
                 </div>
-                <div class="log_details">
-                    <aside>
-                        <h4>100</h4>
-                        <p>Customers</p>
-                    </aside>
-                    <aside>
-                        <h4>93%</h4>
-                        <p>Recommendations Reviews</p>
-                    </aside>
-                    <aside>
-                        <h4>433</h4>
-                        <p>Sucess Stories</p>
-                    </aside>
-                </div>
+                <i class="fa fa-angle-right control control--right"></i>
             </section>
             <section class="row2">
-                <h1>What We DO</h1>
-                <article>
-                    <aside>
-                        <img src="images/Vector (6).png" alt="software development">
-                        <h4>Software Development</h4>
-                        <p>We are all about software solutions,
-                            we are highly skilled in the business
-                            of creating Internet-based applications,
-                            mobile applications,consultancy services,
-                            systems integration. We believe in world-
-                            class software solutions that suit
-                            organizational backlogs.</p>
-                    </aside>
-                    <aside>
-                        <img src="images/Vector (5).png" alt="web Design">
-                        <h4>Web Design</h4>
-                        <p>Responsive and mobile web design
-                            Web app UI design
-                            Company and product sites
-                            Website reviews</p>
-                    </aside>
-                    <aside>
-                        <img src="images/Vector (8).png" alt="Training and Support">
-                        <h4>Training and Support</h4>
-                        <p>We train and support newbie developers
-                            to become giants in the tech space, in an
-                            effort to help build their dreams.</p>
-                    </aside>
-                    <aside>
-                        <img src="images/Vector (7).png" alt="Content">
-                        <h4>Content</h4>
-                        <p>Content strategy,
-                            Digital copywriting
-                            Tone of voice. Content reviews.</p>
-                    </aside>
-                </article>
+                <div class="log_details">
+                    <article class="log_details_container">
+                        <aside>
+                            <h4>100</h4>
+                            <p>Customers</p>
+                        </aside>
+                        <aside>
+                            <h4>93%</h4>
+                            <p>Recommendations Reviews</p>
+                        </aside>
+                        <aside>
+                            <h4>433</h4>
+                            <p>Sucess Stories</p>
+                        </aside>
+                    </article>
+                </div>
+                <section class="services">
+                    <h1>What We DO</h1>
+                    <article>
+                        <aside>
+                            <img src="images/Vector (6).png" alt="software development">
+                            <h4>Software Development</h4>
+                            <p>We are all about software solutions,
+                                we are highly skilled in the business
+                                of creating Internet-based applications,
+                                mobile applications,consultancy services,
+                                systems integration. We believe in world-
+                                class software solutions that suit
+                                organizational backlogs.</p>
+                        </aside>
+                        <aside>
+                            <img src="images/Vector (5).png" alt="web Design">
+                            <h4>Web Design</h4>
+                            <p>Responsive and mobile web design
+                                Web app UI design
+                                Company and product sites
+                                Website reviews</p>
+                        </aside>
+                        <aside>
+                            <img src="images/Vector (8).png" alt="Training and Support">
+                            <h4>Training and Support</h4>
+                            <p>We train and support newbie developers
+                                to become giants in the tech space, in an
+                                effort to help build their dreams.</p>
+                        </aside>
+                        <aside>
+                            <img src="images/Vector (7).png" alt="Content">
+                            <h4>Content</h4>
+                            <p>Content strategy,
+                                Digital copywriting
+                                Tone of voice. Content reviews.</p>
+                        </aside>
+                    </article>
+                </section>
+
             </section>
             <section class="row3">
                 <h3>Our Featured Works</h3>
                 <article>
                     <div class="carousel">
+                        <i class="fa fa-angle-left control control--left"></i>
                         <div class="carousel__container">
                             <div class="carousel__container__slide">
                                 <div class="img_container">
@@ -92,13 +102,17 @@
                             </div>
                             <div class="carousel__container__slide">
                                 <div class="img_container">
-                                    <img src="" alt=""></div>
+                                    <img src="images/buzzdona.jpg" alt=""></div>
+                                <p>Buzz Donna</p>
                             </div>
-                            <p>Buzz Donna</p>
+
                         </div>
+                        <i class="fa fa-angle-right control control--right"></i>
+
                     </div>
                 </article>
             </section>
+
             <section class="row4">
                 <h3>Check Us Out</h3>
                 <article>
@@ -128,10 +142,10 @@
         <footer class="">
             <section class="footer_content">
                 <section class="footer_content--one">
-                    <a href="about_us.php" class="">About Us</a>
-                    <a href="index.php" class=""> <img src="image/footer_logo.png" alt="" width="100px"
-                            height="100px"></a>
-                    <a href="contact.php" class="">Contact Us</a>
+                    <a href="#" class="">About Us</a>
+                    <a href="index.html" class="">
+                        <img src="images/footer_logo.png" alt="" width="100px" height="100px"></a>
+                    <a href="#" class="">Contact Us</a>
                 </section>
                 <section class="footer_content--two">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -140,7 +154,8 @@
                     <a href=""><i class="fab fa-twitter"></i></a>
                 </section>
             </section>
-        </footer>    </section>
+        </footer>
+    </section>
 </body>
 
 </html>
