@@ -1,0 +1,24 @@
+$brand_color: #284299;
+$secondary_text: #333333;
+$default_color: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body{
+    background-color: $default_color;
+}
+a {
+    text-decoration: none;
+    color: $secondary_text;
+}
+
+img{
+    object-fit: contain;
+}
