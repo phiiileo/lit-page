@@ -21,9 +21,13 @@ header {
         display: block;
         position: relative;
         padding-top: 150px;
+        .nav_link{
+            display: none;
+        }
       a {
           display: block;
-          display: none;
+          width: 100%;
+
       }
       a.logo {
         display: block;

@@ -52,9 +52,12 @@ header nav a {
     position: relative;
     padding-top: 150px;
   }
+  header nav .nav_link {
+    display: none;
+  }
   header nav a {
     display: block;
-    display: none;
+    width: 100%;
   }
   header nav a.logo {
     display: block;
