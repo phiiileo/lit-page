@@ -1,16 +1,16 @@
 .control {
-    font-size: 30px;
-    position: absolute;
-    color: white;
-    top: 50%;
+  font-size: 30px;
+  position: absolute;
+  color: white;
+  top: 50%;
 }
 
 .control--left {
-    left: 20px;
+  left: 20px;
 }
 
 .control--right {
-    right: 20px;
+  right: 20px;
 }
 
 .row1 {
@@ -63,7 +63,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       text-align: center;
-      width: 60%;
+      width: 70%;
       margin: 0 auto;
       padding: 50px 0;
 
@@ -128,11 +128,11 @@
   }
   article {
     .carousel {
-        position: relative;
-        .control {
-            color: $secondary_text;
-            top: 50%;
-        }
+      position: relative;
+      .control {
+        color: $secondary_text;
+        top: 50%;
+      }
       &__container {
         height: 400px;
         text-align: center;
@@ -197,9 +197,55 @@
   }
 }
 
-@media screen and (max-width: 560px){
-    .row1 {
-        display: block;
-        padding: 5%;
+@media screen and (max-width: 600px) {
+  .row1 {
+    display: block;
+    padding: 5%;
+
+    .cta {
+      min-width: 50%;
+      margin-top: 100px;
+
+      h3 {
+        font-size: 20px;
+      }
     }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .control {
+    display: none;
+  }
+  .row2 {
+    .log_details {
+      &_container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+      }
+    }
+
+    .services {
+      article {
+        grid-template-columns: 1fr;
+
+        aside {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .row3 {
+    .carousel {
+      &__container {
+        padding: 20px !important;
+        height: auto !important;
+        &__slide {
+          width: 100% !important;
+        }
+      }
+    }
+  }
 }
