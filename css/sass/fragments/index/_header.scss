@@ -12,6 +12,9 @@ header {
       line-height: 24px;
       font-weight: bold;
     }
+    .nav_link a {
+        margin-right: 40px;
+    }
   }
 }
 
@@ -23,6 +26,7 @@ header {
         padding-top: 150px;
         .nav_link{
             display: none;
+          
         }
       a {
           display: block;
