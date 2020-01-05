@@ -308,11 +308,24 @@ footer .footer_content--two a {
   display: -ms-inline-flexbox;
   display: inline-flex;
   border-radius: 50%;
+  margin: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+  footer .footer_content--one {
+    margin-bottom: 30px;
+  }
+  footer .footer_content--one a:nth-child(2) {
+    display: none;
+  }
+  footer .footer_content--two {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=newIndex.css.map */
