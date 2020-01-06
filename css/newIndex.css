@@ -17,6 +17,10 @@ a {
   color: #333333;
 }
 
+a:hover, button:hover {
+  opacity: .7;
+}
+
 img {
   -o-object-fit: contain;
      object-fit: contain;
@@ -44,9 +48,24 @@ header nav a {
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
+  display: inline-block;
 }
 
-@media screen and (max-width: 560px) {
+header nav .nav_link a {
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+
+header nav .logo:hover {
+  opacity: 1;
+  cursor: initial;
+}
+
+header nav .logo:hover img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 778px) {
   header nav {
     display: block;
     position: relative;
@@ -75,6 +94,7 @@ header nav a {
   position: absolute;
   color: white;
   top: 50%;
+  cursor: pointer;
 }
 
 .control--left {
@@ -86,20 +106,34 @@ header nav a {
 }
 
 .row1 {
-  background-image: url("../images/banner.png");
   height: 450px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 100px;
+}
+
+.row1 .carousel1 {
+  padding: 0;
+}
+
+.row1 .carousel1_slide {
   z-index: -1;
+  left: 100%;
+  position: absolute;
+  -webkit-transition: left 1s ease-in-out;
+  transition: left 1s ease-in-out;
+}
+
+.row1 .carousel1_slide img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row1 .carousel1 .active {
+  left: 0 !important;
 }
 
 .row1 .cta {
@@ -121,6 +155,10 @@ header nav a {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 5px;
+  position: absolute;
+  left: 60px;
+  top: 160px;
+  z-index: 5;
 }
 
 .row1 .cta h3 {
@@ -136,6 +174,10 @@ header nav a {
   width: 80%;
   margin-top: 20px;
   color: #ffffff;
+}
+
+.row2 {
+  position: relative;
 }
 
 .row2 .log_details {
@@ -226,7 +268,7 @@ header nav a {
 
 .row3 article .carousel .control {
   color: #333333;
-  top: 50%;
+  top: 45%;
 }
 
 .row3 article .carousel__container {
@@ -293,13 +335,26 @@ header nav a {
 }
 
 @media screen and (max-width: 600px) {
+  .control {
+    display: none;
+  }
   .row1 {
     display: block;
-    padding: 5%;
+  }
+  .row1 .carousel1 {
+    position: static;
+  }
+  .row1 .carousel1_slide {
+    display: none;
+  }
+  .row1 .carousel1 .active {
+    display: block;
   }
   .row1 .cta {
-    min-width: 50%;
-    margin-top: 100px;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
   }
   .row1 .cta h3 {
     font-size: 20px;
@@ -307,14 +362,14 @@ header nav a {
 }
 
 @media screen and (max-width: 850px) {
-  .control {
-    display: none;
-  }
   .row2 .log_details_container {
     width: 100%;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     row-gap: 50px;
+  }
+  .row2 .log_details {
+    margin-top: 0 !important;
   }
   .row2 .services article {
     -ms-grid-columns: 1fr;
@@ -332,8 +387,14 @@ header nav a {
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .row2 .services article aside {
+    width: 90%;
+  }
+}
+
 footer {
-  background-color: #333333;
+  background-color: black;
   color: white;
   padding: 50px 0;
   text-align: center;
