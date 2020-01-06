@@ -19,20 +19,40 @@
                     <a href="#">Home</a>
                     <a href="#">About Us</a>
                 </span>
-                <a class="logo"><img src="images/brand_logo.png" alt=""></a>
+                <a class="logo"><img src="images/brand_logo.png" class="logoImg" alt=""></a>
                 <span class="nav_link">
                     <a href="#">Portfolio</a>
                     <a href="#">Contact Us</a>
+                    <a href=""><i class="fa fa-phone"></i></a>
                 </span>
             </nav>
         </header>
         <main>
+
             <section class="row1">
-                <i class="fa fa-angle-left control control--left"></i>
                 <div class="cta">
                     <h3>Giving life to your project</h3>
-                    <button>Start A Project Now</button>
+                    <button onclick="alert('')">Start A Project Now</button>
                 </div>
+                <div class="carousel1">
+                    <div class="carousel1_slide active">
+                        <img src="images/banner.png" alt="">
+                    </div>
+                    <div class="carousel1_slide">
+                        <img src="images/rectangle.jpg" alt="">
+                    </div>
+                    <div class="carousel1_slide">
+                        <img src="images/banner.png" alt="">
+                    </div>
+                    <div class="carousel1_slide">
+                        <img src="images/rectangle.jpg" alt="">
+                    </div>
+                    <div class="carousel1_slide">
+                        <img src="images/banner.png" alt="">
+                    </div>
+                </div>
+                <i class="fa fa-angle-left control control--left"></i>
+
                 <i class="fa fa-angle-right control control--right"></i>
             </section>
             <section class="row2">
@@ -61,9 +81,8 @@
                             <p>We are all about software solutions,
                                 we are highly skilled in the business
                                 of creating Internet-based applications,
-                                mobile applications,consultancy services,
-                                systems integration. We believe in world-
-                                class software solutions that suit
+                                mobile applications, consultancy services,
+                                systems integration. We believe in world-class software solutions that suit
                                 organizational backlogs.</p>
                         </aside>
                         <aside>
@@ -152,21 +171,21 @@
                     <a href="#" class="">Contact Us</a>
                 </section>
                 <section class="footer_content--two">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href=""><i class="fab fa-google-plus-g"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
                 </section>
             </section>
         </footer>
     </section>
 </body>
+
+
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/popper.min.js"></script>
-<script>
-    $(".logo").click(function () {
-        $(".nav_link").fadeToggle()
-    })
-</script>
+<script src="js/main.js"></script>
 
 </html>
