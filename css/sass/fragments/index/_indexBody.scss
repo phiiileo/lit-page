@@ -24,8 +24,9 @@
   .carousel1 {
     padding: 0;
     &_slide {
+      width: 100%;
       z-index: -1;
-      left: 100% ;
+      left: 100%;
       position: absolute;
       transition: left 1s ease-in-out;
       img {
@@ -34,7 +35,7 @@
         object-fit: cover;
       }
     }
-    .active{
+    .active {
       left: 0 !important;
       // transition: right 1s ease-in-out;
     }

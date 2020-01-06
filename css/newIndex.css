@@ -118,6 +118,7 @@ header nav .logo:hover img {
 }
 
 .row1 .carousel1_slide {
+  width: 100%;
   z-index: -1;
   left: 100%;
   position: absolute;
