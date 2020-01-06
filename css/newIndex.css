@@ -32,6 +32,10 @@ header {
   text-align: center;
 }
 
+header .fa-bars {
+  display: none;
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,15 +65,17 @@ header nav .logo:hover {
   cursor: initial;
 }
 
-header nav .logo:hover img {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 778px) {
+  header .fa-bars {
+    display: block;
+    margin-top: -10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
   header nav {
     display: block;
     position: relative;
-    padding-top: 150px;
+    padding-top: 100px;
   }
   header nav .nav_link {
     display: none;
@@ -86,6 +92,10 @@ header nav .logo:hover img {
     top: 20px;
     margin: 0;
     width: 100%;
+  }
+  header nav a.logo img {
+    width: 60px;
+    height: 60px;
   }
 }
 

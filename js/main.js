@@ -2,7 +2,7 @@ let browserWidth = document.body.clientWidth;
 // Toggle menu
 // console.log(window.innerHeight, browserWidth)
 if (browserWidth < 770) {
-    $(".logoImg").click(function () {
+    $(".fa-bars").click(function () {
         $(".nav_link").fadeToggle()
     })
 }

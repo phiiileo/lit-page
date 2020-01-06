@@ -2,6 +2,9 @@ header {
   background-color: white;
   padding: 10px 0;
   text-align: center;
+  .fa-bars {
+    display: none;
+  }
   nav {
     display: flex;
     align-items: center;
@@ -20,19 +23,22 @@ header {
     .logo:hover{
       opacity: 1;
       cursor: initial;
-      img{
-        cursor: pointer;
-      }
     }
   }
 }
 
 @media screen and (max-width: 778px) {
   header {
+    .fa-bars {
+      display: block;
+      margin-top: -10px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
     nav {
         display: block;
         position: relative;
-        padding-top: 150px;
+        padding-top: 100px;
         .nav_link{
             display: none;
           
@@ -50,6 +56,11 @@ header {
         top: 20px;
         margin: 0;
         width: 100%;
+
+        img{
+          width: 60px;
+          height: 60px;
+        }
       }
     }
   }
