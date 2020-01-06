@@ -189,6 +189,10 @@ header nav .logo:hover {
   color: #ffffff;
 }
 
+.row1 .cta button a {
+  color: #ffffff;
+}
+
 .row2 {
   position: relative;
 }
@@ -347,6 +351,12 @@ header nav .logo:hover {
   line-height: 21px;
 }
 
+@media screen and (max-width: 450px) {
+  .row2 .services article aside {
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .control {
     display: none;
@@ -390,6 +400,9 @@ header nav .logo:hover {
   }
   .row2 .services article aside {
     width: 100%;
+  }
+  .row3 .control {
+    display: none;
   }
   .row3 .carousel__container {
     padding: 20px !important;

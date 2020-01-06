@@ -71,6 +71,9 @@
       width: 80%;
       margin-top: 20px;
       color: $default_color;
+      a{
+        color: $default_color;
+      }
     }
   }
 }
@@ -220,6 +223,18 @@
   }
 }
 
+@media screen and (max-width: 450px){
+  .row2 {
+    .services {
+      article {
+        aside{
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .control {
     display: none;
@@ -275,6 +290,9 @@
   }
 
   .row3 {
+    .control {
+      display: none;
+    }
     .carousel {
       &__container {
         padding: 20px !important;

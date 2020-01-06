@@ -27,7 +27,6 @@ $(".control").click(function () {
     //right btn control
     else {
         if (init >= slide_stack - 1) { }
-
         else {
             active_slide.css("left", "-100%").removeClass("active");
             next_slide.addClass("active");
