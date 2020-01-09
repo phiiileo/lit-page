@@ -1,12 +1,3 @@
-let browserWidth = document.body.clientWidth;
-// Toggle menu
-// console.log(window.innerHeight, browserWidth)
-if (browserWidth < 770) {
-    $(".fa-bars").click(function () {
-        $(".nav_link").fadeToggle()
-    })
-}
-
 //banner slider
 let init = 0;
 let slide_stack = $(".carousel1_slide").length;
