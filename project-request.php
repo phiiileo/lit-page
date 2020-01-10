@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project Request Form</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/project_request.css">
+    <link rel="stylesheet" href="css/project-request.css">
 </head>
 
 <body> <?php require_once "./Fragments/header.php" ?>
@@ -16,7 +16,7 @@
         <section class="form_container">
             <h3 class="title">Project Request Form</h3>
             <form action="">
-                <div class="form_group">
+                <div class="form_group">    
                     <label for="p_info">General Project Information</label>
                     <input type="text" placeholder="Project Name">
                     <input type="text" placeholder="Project Duration">

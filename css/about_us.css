@@ -7,6 +7,9 @@ body{
     background-color: white;
     
 }
+body header{
+    border-bottom: 1px solid black;
+}
 
 .about{
     background: #0580B9;

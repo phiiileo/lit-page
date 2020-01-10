@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <!-- <link rel="stylesheet" href="about_us.css"> -->
+        <link rel="stylesheet" href="css/about_us.css">
 
 </head>
 
@@ -126,7 +126,7 @@
         <div class="section">
             <h1 class="take">Take your business forward</h1>
             <p class="ready">Are you ready to begin?</p>
-            <button>Start A Project</button>
+            <a href="project-request.php"><button>Start A Project</button></a>
             <hr>
         </div>
     </section>
