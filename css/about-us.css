@@ -41,6 +41,7 @@ body .about {
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0;
+  font-size: 25px;
 }
 
 body .profile {
@@ -48,8 +49,22 @@ body .profile {
   padding: 30px;
 }
 
+body .profile h2,
+body .profile h3,
+body .profile p {
+  text-align: center;
+  margin: 20px 0 !important;
+}
+
 body .profile h2 {
   margin: 10px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body .profile h3 {
+  font-weight: bold;
+  font-size: 25px;
 }
 
 body .profile ol {
@@ -163,7 +178,7 @@ body .section button:active {
   .content .profile h2,
   .content .profile h3,
   .content .profile p {
-    text-align: center;
+    text-align: left;
   }
   .content .services .cen {
     display: block;

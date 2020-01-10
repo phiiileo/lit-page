@@ -35,14 +35,15 @@
                 </p>
                 <p class="">
                     <h3>Our Goal</h3>
-                    We are a global team with technological innovation and human expertise adding value to the
-                    burgeoning human needs. 
+                    <p> We are a global team with technological innovation and human expertise adding value to the
+                        burgeoning human needs. </p>
                 </p>
                 <p class="">Our goal is to build a community of talents that will create valuable solution oriented
                     products for people and businesses to thrive.</p>
                 <p class="">
                     <h3>Our Vision</h3>
-                    Augment the standard of living and ease of doing busines in the continent with the use technology. 
+                    <p> Augment the standard of living and ease of doing busines in the continent with the
+                        use technology. </p>
                 </p>
         </div>
         <div class="services">
