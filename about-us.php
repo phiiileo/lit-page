@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lixir | Official Page</title>
-    <link rel="stylesheet" href="css/bootstrap-4.4.0-dist/css/bootstrap.min.css">
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="css/bootstrap-4.4.0-dist/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
