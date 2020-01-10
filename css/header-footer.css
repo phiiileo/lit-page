@@ -63,7 +63,7 @@ header nav .nav_link a {
 
 header nav .logo:hover {
   opacity: 1;
-  cursor: initial;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 778px) {

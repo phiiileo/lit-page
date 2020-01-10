@@ -18,7 +18,7 @@
 
             <section class="row1">
                 <div class="cta">
-                    <h3>Giving life to your project</h3>
+                    <h3>Innovative tech solutions with the spark of life.</h3>
                     <button><a href="project-request.php">Start A Project Now</a></button>
                 </div>
                 <div class="carousel1">

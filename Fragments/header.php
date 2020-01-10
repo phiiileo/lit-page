@@ -7,7 +7,7 @@
             <a href="index.php">Home</a>
             <a href="about-us.php">About Us</a>
         </span>
-        <a class="logo"><img src="images/brand_logo.png" class="logoImg" alt=""></a>
+        <a class="logo" href="index.php"><img src="images/brand_logo.png" class="logoImg" alt=""></a>
         <span class="nav_link">
         <a href="project-request.php">Start A Project</a>
         <a href="contact-us.php">Contact Us</a>
