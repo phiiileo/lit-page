@@ -9,12 +9,14 @@
         </span>
         <a class="logo"><img src="images/brand_logo.png" class="logoImg" alt=""></a>
         <span class="nav_link">
-            <a href="team-page.php">Portfolio</a>
-            <a href="contact-us.php">Contact Us</a>
-            <a href="+23412345678"><i class="fa fa-phone"></i></a>
+        <a href="project-request.php">Start A Project</a>
+        <a href="contact-us.php">Contact Us</a>
+            <a href="#"><i class="fa fa-phone"></i></a>
         </span>
     </nav>
 </header>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/popper.min.js"></script>
 
 <script>
     let browserWidth = document.body.clientWidth;

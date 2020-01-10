@@ -48,6 +48,7 @@ main .form_container h3 {
   font-size: 28px;
   line-height: 54px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 main .form_container .form_group label {
