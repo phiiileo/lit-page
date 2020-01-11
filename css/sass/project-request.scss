@@ -8,7 +8,8 @@ main {
     padding: 50px 10px;
     max-width: 700px;
     margin: 0 auto;
-    box-shadow: 1px 1px 5px black;
+    border: 1px solid $brand_color;
+    box-shadow: 1px 1px 5px $brand_color;
     h3 {
       font-weight: bold;
       font-size: 28px;

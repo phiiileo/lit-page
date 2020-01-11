@@ -28,23 +28,24 @@
                 </p>
                 <p class="">We are a company poised with three things at it core;
                     <ol>
-                        <li>Innovative tech solutions to enhance the way we live, work & play.</li>
+                        <li>Innovative tech solutions to enhance the way we live, work & play</li>
                         <li>Optimize/disrupt business operations to enhance growth and </li>
                         <li>Reduce/eliminate friction between businesses and people.</li>
                     </ol>
                 </p>
-                <p class="">
+                <p> We are a global team with technological innovation and human expertise adding value to the
+                    burgeoning human needs. </p>
+                <aside class="card">
                     <h3>Our Goal</h3>
-                    <p> We are a global team with technological innovation and human expertise adding value to the
-                        burgeoning human needs. </p>
-                </p>
-                <p class="">Our goal is to build a community of talents that will create valuable solution oriented
-                    products for people and businesses to thrive.</p>
-                <p class="">
+                    <p class="">Our goal is to build a community of talents that will create valuable solution oriented
+                        products for people and businesses to thrive.</p>
+                </aside>
+
+                <aside class="card">
                     <h3>Our Vision</h3>
                     <p> Augment the standard of living and ease of doing busines in the continent with the
                         use technology. </p>
-                </p>
+                </aside>
         </div>
         <div class="services">
             <h1>What We Do</h1>

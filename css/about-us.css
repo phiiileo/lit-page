@@ -54,6 +54,7 @@ body .profile h3,
 body .profile p {
   text-align: center;
   margin: 20px 0 !important;
+  font-size: 20px;
 }
 
 body .profile h2 {
@@ -69,7 +70,27 @@ body .profile h3 {
 
 body .profile ol {
   padding: 0 30px;
-  font-style: italic;
+  width: 100%;
+}
+
+body .profile ol li {
+  text-align: center;
+  list-style-position: inside;
+}
+
+body .profile .card {
+  background-color: #0580b923;
+  padding-bottom: 10px;
+}
+
+body .profile .card h3 {
+  background-color: #0580b9;
+  color: white;
+  padding: 10px;
+}
+
+body .profile .card p {
+  padding-left: 10px;
 }
 
 body .services {
@@ -151,6 +172,7 @@ body .section button {
   border: 1px solid #0580b9;
   color: white;
   padding: 10px 20px;
+  margin: 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -179,6 +201,11 @@ body .section button:active {
   .content .profile h3,
   .content .profile p {
     text-align: left;
+    font-size: 18px;
+  }
+  .content .profile ol li {
+    text-align: left;
+    list-style-position: outside;
   }
   .content .services .cen {
     display: block;
