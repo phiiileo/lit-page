@@ -53,6 +53,7 @@ img {
 
 .row1 .carousel1 {
   padding: 0;
+  overflow: hidden;
 }
 
 .row1 .carousel1_slide {
@@ -61,8 +62,8 @@ img {
   z-index: -1;
   left: 100%;
   position: absolute;
-  -webkit-transition: left .5s ease-in-out;
-  transition: left .5s ease-in-out;
+  -webkit-transition: left 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
 }
 
 .row1 .carousel1_slide img {
@@ -108,7 +109,7 @@ img {
 }
 
 .row1 .cta button {
-  background-color: #284299;
+  background-color: #0580b9;
   border: none;
   padding: 10px;
   width: 80%;
@@ -122,6 +123,7 @@ img {
 
 .row2 {
   position: relative;
+  background-color: #0580b913;
 }
 
 .row2 .log_details {
@@ -146,7 +148,7 @@ img {
 .row2 .log_details_container h4 {
   font-size: 48px;
   line-height: 72px;
-  color: #284299;
+  color: #0580b9;
   margin-bottom: 20px;
 }
 
@@ -196,6 +198,7 @@ img {
 }
 
 .row3 {
+  padding-top: 30px;
   color: #333333;
 }
 
@@ -212,11 +215,11 @@ img {
 
 .row3 article .carousel .control {
   color: #333333;
-  top: 45%;
+  top: 35%;
 }
 
 .row3 article .carousel__container {
-  height: 400px;
+  height: 450px;
   text-align: center;
   padding: 50px 100px;
 }
@@ -248,8 +251,14 @@ img {
   line-height: 140.62%;
 }
 
+.row3 article .carousel__container__slide a {
+  margin-bottom: 30px;
+  display: inline-block;
+  color: #0580b9;
+}
+
 .row4 {
-  background-color: #284299;
+  background-color: #0580b9;
   color: #ffffff;
   padding: 30px;
   text-align: center;

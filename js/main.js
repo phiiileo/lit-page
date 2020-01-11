@@ -1,6 +1,26 @@
-//banner slider
 let init = 0;
 let slide_stack = $(".carousel1_slide").length;
+
+function automateSlider() {
+    let browserWidth = document.body.clientWidth;
+    if (browserWidth < 770) {
+        return
+    }
+    else {
+        if (init >= slide_stack - 1) {
+            return
+        }
+        else {
+            let active_slide = $(".carousel1 .active");
+            let next_slide = active_slide.next();
+            active_slide.css("left", "-100%").removeClass("active");
+            next_slide.addClass("active");
+            init++
+        }
+    }
+}
+setInterval(automateSlider, 10000);
+//banner slider
 $(".control").click(function () {
     let active_slide = $(".carousel1 .active");
     let next_slide = active_slide.next();
@@ -23,6 +43,5 @@ $(".control").click(function () {
             next_slide.addClass("active");
             init++
         }
-
     }
 })

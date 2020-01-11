@@ -18,11 +18,11 @@
 
             <section class="row1">
                 <div class="cta">
-                    <h3>Giving life to your project</h3>
+                    <h3>Innovative tech solutions with the spark of life.</h3>
                     <button><a href="project-request.php">Start A Project Now</a></button>
                 </div>
                 <div class="carousel1">
-                    <div class="carousel1_slide active">
+                    <div class="carousel1_slide active slide1">
                         <img src="images/banner.png" alt="">
                     </div>
                     <div class="carousel1_slide">
@@ -127,11 +127,16 @@
                                     <img src="images/malthisi.jpg" alt="mathisi">
                                 </div>
                                 <p>Mathisi Mini Classroom</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, rerum!</p>
+                                <a href="mathisi-classroom/index.html">View Project</a>
+
                             </div>
                             <div class="carousel__container__slide">
                                 <div class="img_container">
                                     <img src="images/buzzdona.jpg" alt=""></div>
                                 <p>Buzz Donna</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, rerum!</p>
+                                <a href="">View Project</a>
                             </div>
 
                         </div>
