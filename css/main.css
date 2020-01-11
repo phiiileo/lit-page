@@ -61,8 +61,8 @@ img {
   z-index: -1;
   left: 100%;
   position: absolute;
-  -webkit-transition: left .5s ease-in-out;
-  transition: left .5s ease-in-out;
+  -webkit-transition: left 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
 }
 
 .row1 .carousel1_slide img {
@@ -212,11 +212,11 @@ img {
 
 .row3 article .carousel .control {
   color: #333333;
-  top: 45%;
+  top: 35%;
 }
 
 .row3 article .carousel__container {
-  height: 400px;
+  height: 450px;
   text-align: center;
   padding: 50px 100px;
 }
@@ -246,6 +246,12 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 140.62%;
+}
+
+.row3 article .carousel__container__slide a {
+  margin-bottom: 30px;
+  display: inline-block;
+  color: #284299;
 }
 
 .row4 {

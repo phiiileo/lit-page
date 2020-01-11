@@ -30,7 +30,7 @@
       z-index: -1;
       left: 100%;
       position: absolute;
-      transition: left .5s ease-in-out;
+      transition: left 0.5s ease-in-out;
       img {
         width: 100%;
         height: 100%;
@@ -71,7 +71,7 @@
       width: 80%;
       margin-top: 20px;
       color: $default_color;
-      a{
+      a {
         color: $default_color;
       }
     }
@@ -157,10 +157,10 @@
       position: relative;
       .control {
         color: $secondary_text;
-        top: 45%;
+        top: 35%;
       }
       &__container {
-        height: 400px;
+        height: 450px;
         text-align: center;
         padding: 50px 100px;
 
@@ -187,6 +187,11 @@
               font-size: 14px;
               line-height: 140.62%;
             }
+          }
+          a {
+            margin-bottom: 30px;
+            display: inline-block;
+            color: $brand_color;
           }
         }
       }
@@ -223,11 +228,11 @@
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
   .row2 {
     .services {
       article {
-        aside{
+        aside {
           padding: 10px;
         }
       }
