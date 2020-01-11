@@ -28,9 +28,9 @@ img {
 }
 
 .form {
-  border: 1px solid #284299;
-  -webkit-box-shadow: 1px 1px 3px #284299;
-          box-shadow: 1px 1px 3px #284299;
+  border: 1px solid #0580b9;
+  -webkit-box-shadow: 1px 1px 3px #0580b9;
+          box-shadow: 1px 1px 3px #0580b9;
   margin: 30px auto;
   min-width: 320px;
   max-width: 600px;
@@ -40,7 +40,7 @@ img {
 .form-container h1 {
   text-align: center;
   margin: 20px 0 0 0;
-  color: #284299;
+  color: #0580b9;
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ img {
   display: block;
   font-size: 18px;
   margin: 10px 0;
-  color: #284299;
+  color: #0580b9;
 }
 
 .form-container .form-group input, .form-container .form-group textarea {
@@ -62,10 +62,10 @@ img {
 .form-container button {
   display: block;
   margin: 20px auto;
-  background-color: #284299;
+  background-color: #0580b9;
   color: white;
   padding: 10px 30px;
-  border: 1px solid #284299;
+  border: 1px solid #0580b9;
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
@@ -73,8 +73,8 @@ img {
 
 .form-container button:hover {
   background-color: transparent;
-  color: #284299;
-  -webkit-box-shadow: 1px 1px 5px #284299;
-          box-shadow: 1px 1px 5px #284299;
+  color: #0580b9;
+  -webkit-box-shadow: 1px 1px 5px #0580b9;
+          box-shadow: 1px 1px 5px #0580b9;
 }
 /*# sourceMappingURL=contact-us.css.map */

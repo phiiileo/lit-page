@@ -79,6 +79,8 @@
 }
 .row2 {
   position: relative;
+  background-color: #0580b913;
+
   .log_details {
     width: 100%;
     margin-top: -100px;
@@ -145,6 +147,7 @@
 }
 
 .row3 {
+  padding-top: 30px;
   color: $secondary_text;
   h3 {
     text-align: center;
