@@ -55,6 +55,7 @@ body .profile p {
   text-align: center;
   margin: 20px 0 !important;
   font-size: 20px;
+  word-break: break-all;
 }
 
 body .profile h2 {

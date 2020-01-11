@@ -23,8 +23,8 @@
         </div>
         <div class="profile">
             <h2 class="">Company Profile</h3>
-                <p class="">Lixir is technology first company with a group of agile talents from diverse backgrounds as
-                    UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AR, VR devs & content creators.
+                <p class="">
+                Lixir is technology first company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AR, VR devs & content creators.
                 </p>
                 <p class="">We are a company poised with three things at it core;
                     <ol>
