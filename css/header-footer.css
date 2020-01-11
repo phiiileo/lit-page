@@ -113,6 +113,10 @@ footer a {
   margin: 0 20px;
 }
 
+footer .footer_content {
+  padding: 0 50px;
+}
+
 footer .footer_content--one {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,6 +152,19 @@ footer .footer_content--two a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+footer .contact {
+  font-size: 14px;
+}
+
+footer .contact P {
+  word-break: break-all;
+  margin: 10px 0;
+}
+
+footer .contact P a {
+  display: inline-block;
 }
 
 @media screen and (max-width: 560px) {
