@@ -22,7 +22,7 @@
                     <button><a href="project-request.php">Start A Project Now</a></button>
                 </div>
                 <div class="carousel1">
-                    <div class="carousel1_slide active">
+                    <div class="carousel1_slide active slide1">
                         <img src="images/banner.png" alt="">
                     </div>
                     <div class="carousel1_slide">
