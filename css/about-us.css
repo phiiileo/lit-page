@@ -80,6 +80,11 @@ body .profile ol li {
   list-style-position: inside;
 }
 
+body .profile .core-values li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 body .profile .card {
   background-color: #0580b923;
   padding-bottom: 10px;

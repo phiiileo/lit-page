@@ -26,8 +26,8 @@
                 <p class="">
                     Lixir is technology first company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AR, VR devs & content creators.
                 </p>
-                <p class="">We are a company poised with three things at it core;
-                    <ol>
+                <p >We are a company poised with three things at it core;
+                    <ol class="core-values">
                         <li>Innovative tech solutions to enhance the way we live, work & play</li>
                         <li>Optimize/disrupt business operations to enhance growth and </li>
                         <li>Reduce/eliminate friction between businesses and people.</li>
