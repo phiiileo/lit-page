@@ -86,4 +86,4 @@ setInterval(function () {
         t_next_slide.addClass("t-active");
         init1++;
     }
-}, 10000)()
+}, 10000)
