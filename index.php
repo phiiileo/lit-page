@@ -38,22 +38,22 @@
                         <img src="images/banner.png" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner3.jpg" alt="">
+                        <img src="images/banner4.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner2.jpg" alt="">
+                        <img src="images/banner5.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner1.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner.png" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/rectangle.jpg" alt="">
+                        <img src="images/banner2.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner.png" alt="">
+                    </div>
+                    <div class="carousel1_slide">
+                        <img src="images/banner4.jpg" alt="">
                     </div>
                 </div>
                 <i class="fa fa-angle-left control control--left"></i>
@@ -148,31 +148,68 @@
 
             <section class="row4">
                 <h3>Check Us Out</h3>
-                <article>
-                    <aside>
-                        <img src="images/Rectangle 29.png" alt="user1">
-                        <p>Kathryn Bell</p>
-                        <p>Front-End Developer</p>
+
+                <article class="team-carousel">
+
+                    <aside class="team-carousel_slide t-active">
+                        <img src="images/team/user.png" alt="user1">
+                        <span>
+                            <p>Godwin Ikott</p>
+                            <p>CEO</p>
+                        </span>
                     </aside>
-                    <aside>
-                        <img src="images/Rectangle 30.png" alt="user2">
-                        <p>Jeromes Hawkins</p>
-                        <p>Technical Account Manager</p>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team1.png" alt="user2">
+                        <span>
+                            <p>Anthonia Okafor</p>
+                            <p>Engineering and PM</p>
+                        </span>
                     </aside>
-                    <aside>
-                        <img src="images/Rectangle 32.png" alt="user3">
-                        <p>Angel Howard</p>
-                        <p>Marketting Technologist</p>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/user.png" alt="user2">
+                        <span>
+                            <p>Emmanuel Owojori</p>
+                            <p>Quality Technologist & Web Dev</p>
+                        </span>
                     </aside>
-                    <aside>
-                        <img src="images/Rectangle 31.png" alt="user4">
-                        <p>Harold Black</p>
-                        <p>Data Analyst</p>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team4.png" alt="user3">
+                        <span>
+                            <p>Chukwuemeka Ibebukwu</p>
+                            <p>Software Architect</p>
+                        </span>
                     </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team2.png" alt="user4">
+                        <span>
+                            <p>Odinekachukwu Ishicheli</p>
+                            <p>Data Analyst</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team3.png" alt="user5">
+                        <span>
+                            <p>Temidayo Oluyede</p>
+                            <p>Marketting Technologist</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team5.png" alt="user6">
+                        <span>
+                            <p>Stephenie Obudu</p>
+                            <p>UI/UX Developer</p>
+                        </span>
+                    </aside>
+
                 </article>
+                <li class="t-control">
+                    <i class="fa fa-angle-left controlT control_left"></i>
+                    <i class="fa fa-angle-right controlT control_right"></i>
+                </li>
+
             </section>
         </main>
-       <?php require_once "./Fragments/footer.php" ?>
+        <?php require_once "./Fragments/footer.php" ?>
     </section>
 </body>
 

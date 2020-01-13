@@ -45,3 +45,45 @@ $(".control").click(function () {
         }
     }
 })
+
+// Team Carousel
+let team_btn = $(".controlT");
+let team_stack = $(".team-carousel_slide").length;
+let init1 = 0;
+team_btn.click(function () {
+    let t_active_slide = $(".t-active");
+    let t_next_slide = t_active_slide.next();
+    let t_prev_slide = t_active_slide.prev();
+
+    //left btn control
+    if ($(this).hasClass("control_left")) {
+        if (init1 === 0) { console.log("limit") }
+        else {
+            t_active_slide.css("left", "100%").removeClass("t-active");
+            t_prev_slide.addClass("t-active");
+            init1--
+        }
+    }
+    //right btn control
+    else {
+        if (init1 >= team_stack - 1) { console.log("limit") }
+        else {
+            $(t_active_slide).css("left", "-100%").removeClass("t-active");
+            t_next_slide.addClass("t-active");
+            init1++
+
+        }
+    }
+})
+
+
+setInterval(function () {
+    if (init1 >= team_stack - 1) { }
+    else {
+        let t_active_slide = $(".t-active");
+        let t_next_slide = t_active_slide.next();
+        $(t_active_slide).css("left", "-100%").removeClass("t-active");
+        t_next_slide.addClass("t-active");
+        init1++;
+    }
+}, 10000)()
