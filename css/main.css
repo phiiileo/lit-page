@@ -80,7 +80,6 @@ img {
 .row1 .cta {
   background-color: #cecece;
   width: 400px;
-  border: 1px solid #0580b9;
   height: 150px;
   padding: 0 20px;
   display: -webkit-box;
@@ -157,6 +156,10 @@ img {
 .row2 .log_details_container p {
   font-size: 16px;
   line-height: 24px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .7s ease-in-out;
+  transition: height .7s ease-in-out;
 }
 
 .row2 .services {
@@ -324,7 +327,8 @@ img {
 .row4 .team-carousel_slide span {
   display: block;
   width: 50%;
-  text-align: center;
+  text-align: left;
+  border: 1px solid red;
 }
 
 .row4 .team-carousel_slide span p {

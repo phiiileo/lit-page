@@ -23,37 +23,16 @@
                 </div>
                 <div class="carousel1">
                     <div class="carousel1_slide active slide1">
-                        <img src="images/banner.png" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner1.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner2.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
                         <img src="images/banner3.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner.png" alt="">
+                        <img src="images/banner2.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner4.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner5.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner1.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner2.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner.png" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner4.jpg" alt="">
                     </div>
                 </div>
                 <i class="fa fa-angle-left control control--left"></i>
@@ -152,7 +131,7 @@
                 <article class="team-carousel">
 
                     <aside class="team-carousel_slide t-active">
-                        <img src="images/team/user.png" alt="user1">
+                        <img src="images/team/team0.png" alt="user1">
                         <span>
                             <p>Godwin Ikott</p>
                             <p>CEO</p>
@@ -166,31 +145,38 @@
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
-                        <img src="images/team/user.png" alt="user2">
+                        <img src="images/team/team6.jpeg" alt="user2">
                         <span>
-                            <p>Emmanuel Owojori</p>
-                            <p>Quality Technologist & Web Dev</p>
+                            <p>Henry Ogidiagba </p>
+                            <p>Frontend Developer</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
-                        <img src="images/team/team4.png" alt="user3">
+                        <img src="images/team/team7.jpeg" alt="user2">
+                        <span>
+                            <p>Emmanuel Owojori</p>
+                            <p>Quality Technologist</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team2.png" alt="user3">
                         <span>
                             <p>Chukwuemeka Ibebukwu</p>
                             <p>Software Architect</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
-                        <img src="images/team/team2.png" alt="user4">
+                        <img src="images/team/team4.png" alt="user4">
                         <span>
                             <p>Odinekachukwu Ishicheli</p>
-                            <p>Data Analyst</p>
+                            <p>Content Technologist/Digital Strategist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team3.png" alt="user5">
                         <span>
                             <p>Temidayo Oluyede</p>
-                            <p>Marketting Technologist</p>
+                            <p>Marketing Technologist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
@@ -198,6 +184,13 @@
                         <span>
                             <p>Stephenie Obudu</p>
                             <p>UI/UX Developer</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team8.jpg" alt="user6">
+                        <span>
+                            <p>Kazeen Asifat</p>
+                            <p>Technical Team Lead</p>
                         </span>
                     </aside>
 

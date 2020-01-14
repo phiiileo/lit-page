@@ -36,10 +36,11 @@ footer {
   .contact {
     font-size: 14px;
     P{
-      word-break: break-all;
       margin: 10px 0;
+      font-size: 12px;
       a{
         display: inline-block;
+        margin-left: 5px;
       }
     }
   }

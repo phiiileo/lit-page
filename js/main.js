@@ -1,3 +1,13 @@
+//hover effect on log details
+
+$(".log_details_container h4").on("mouseenter", function () {
+    $(this).next().css("height", "30px")
+})
+
+$(".log_details_container h4").on("mouseleave", function () {
+    $(this).next().css("height", "0")
+})
+
 let init = 0;
 let slide_stack = $(".carousel1_slide").length;
 
