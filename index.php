@@ -129,7 +129,6 @@
                 <h3>Check Us Out</h3>
 
                 <article class="team-carousel">
-
                     <aside class="team-carousel_slide t-active">
                         <img src="images/team/team0.png" alt="user1">
                         <span>
