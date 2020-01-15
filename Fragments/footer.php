@@ -15,7 +15,6 @@
         </section>
         <br />
         <section class="contact">
-            <h3>You can also reach us with</h3>
             <p>
             <span
             ><i class="fa fa-envelope"> </i> Email Address:<a href="mailto: biz@lixir.com">biz@lixir.com.ng</a>
