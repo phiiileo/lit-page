@@ -225,7 +225,7 @@
     margin: 20px 0;
     i {
       margin: 20px 50px;
-      font-size: 30px;
+      font-size: 20px;
       cursor: pointer;
     }
     i:hover{
@@ -237,16 +237,17 @@
     min-height: 200px;
     margin-top: 40px;
     overflow: scroll;
+    scroll-behavior: smooth;
     overflow-y: hidden;
     display: flex;
     flex-direction: row;
-
+    padding-bottom: 20px;
     &_slide {
       width: 400px;
       margin-right: 20px;
       border-right: 1px solid white;
       img {
-        width: 250px;
+        min-width: 250px;
         height: 200px;
         object-fit: cover;  
         padding-right: 20px;    
@@ -269,10 +270,32 @@
       }
     }
 
+
     .t-active {
       left: 0% !important;
       z-index: 2;
     }
+  }
+  ::-webkit-scrollbar {
+    width: 1px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    width: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $brand_color; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+    
   }
 }
 

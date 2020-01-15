@@ -132,71 +132,71 @@
                     <aside class="team-carousel_slide t-active">
                         <img src="images/team/team0.png" alt="user1">
                         <span>
-                            <p>Godwin Ikott</p>
+                            <p>Godwin <br> Ikott</p>
                             <p>CEO</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team1.png" alt="user2">
                         <span>
-                            <p>Anthonia Okafor</p>
+                            <p>Anthonia <br> Okafor</p>
                             <p>Engineering and PM</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team6.jpeg" alt="user2">
                         <span>
-                            <p>Henry Ogidiagba </p>
+                            <p>Henry <br> Ogidiagba </p>
                             <p>Frontend Developer</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team7.jpeg" alt="user2">
                         <span>
-                            <p>Emmanuel Owojori</p>
+                            <p>Emmanuel <br> Owojori</p>
                             <p>Quality Technologist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team2.png" alt="user3">
                         <span>
-                            <p>Chukwuemeka Ibebukwu</p>
+                            <p>Chukwuemeka <br> Ibebukwu</p>
                             <p>Software Architect</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team4.png" alt="user4">
                         <span>
-                            <p>Odinekachukwu Ishicheli</p>
+                            <p>Odinekachukwu <br> Ishicheli</p>
                             <p>Content Technologist/Digital Strategist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team3.png" alt="user5">
                         <span>
-                            <p>Temidayo Oluyede</p>
+                            <p>Temidayo <br> Oluyede</p>
                             <p>Marketing Technologist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team5.png" alt="user6">
                         <span>
-                            <p>Stephenie Obudu</p>
+                            <p>Stephenie <br> Obudu</p>
                             <p>UI/UX Developer</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
                         <img src="images/team/team8.jpg" alt="user6">
                         <span>
-                            <p>Kazeen Asifat</p>
+                            <p>Kazeen <br> Asifat</p>
                             <p>Technical Team Lead</p>
                         </span>
                     </aside>
 
                 </article>
                 <li class="t-control">
-                    <i class="fa fa-angle-left controlT control_left"></i>
-                    <i class="fa fa-angle-right controlT control_right"></i>
+                    <i class="fa fa-arrow-left controlT control_left"></i>
+                    <i class="fa fa-arrow-right controlT control_right"></i>
                 </li>
 
             </section>

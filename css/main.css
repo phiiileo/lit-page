@@ -267,6 +267,9 @@ img {
   color: #ffffff;
   padding: 80px 30px;
   text-align: center;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
 }
 
 .row4 h3 {
@@ -288,7 +291,7 @@ img {
 
 .row4 .t-control i {
   margin: 20px 50px;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -302,6 +305,7 @@ img {
   min-height: 200px;
   margin-top: 40px;
   overflow: scroll;
+  scroll-behavior: smooth;
   overflow-y: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,6 +314,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-bottom: 20px;
 }
 
 .row4 .team-carousel_slide {
@@ -319,7 +324,7 @@ img {
 }
 
 .row4 .team-carousel_slide img {
-  width: 250px;
+  min-width: 250px;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -347,6 +352,24 @@ img {
 .row4 .team-carousel .t-active {
   left: 0% !important;
   z-index: 2;
+}
+
+.row4 ::-webkit-scrollbar {
+  width: 1px;
+  height: 5px;
+}
+
+.row4 ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 5px;
+}
+
+.row4 ::-webkit-scrollbar-thumb {
+  background: #0580b9;
+}
+
+.row4 ::-webkit-scrollbar-thumb:hover {
+  background: blue;
 }
 
 @media screen and (max-width: 450px) {
