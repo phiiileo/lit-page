@@ -49,6 +49,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .row1 .carousel1 {
@@ -369,7 +370,7 @@ img {
 }
 
 .row4 ::-webkit-scrollbar-thumb:hover {
-  background: blue;
+  background: darkblue;
 }
 
 @media screen and (max-width: 450px) {
