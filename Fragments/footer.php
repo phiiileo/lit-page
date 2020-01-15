@@ -19,7 +19,7 @@
             <p>
             <span
             ><i class="fa fa-envelope"> </i> Email Address:<a href="mailto: biz@lixir.com">biz@lixir.com.ng</a>
-            </span>
+            </span> <br>
             <span><i class="fa fa-phone"> </i> Tel: (+234) 9021022337</p>
             </span> 
             <p>Copyright &copy; 2020 Lixir Organization.</p>
