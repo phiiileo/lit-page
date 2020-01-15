@@ -33,7 +33,7 @@
                         <li>Reduce/eliminate friction between businesses and people.</li>
                     </ol>
                 </p>
-                <p> We are a global team with technological innovation and human expertise adding value to the
+                <p> We are a glocal team with technological innovation and human expertise adding value to the
                     burgeoning human needs. </p>
                 <aside class="card">
                     <h3>Our Goal</h3>
@@ -137,7 +137,6 @@
         </div>
         <div class="section">
             <h2>Take your business forward</h2>
-            <p>Are you ready to begin?</p>
             <a href="project-request.php"><button>Start A Project</button></a>
             <hr>
         </div>
