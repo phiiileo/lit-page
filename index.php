@@ -140,7 +140,7 @@
                         <img src="images/team/team1.png" alt="user2">
                         <span>
                             <p>Anthonia <br> Okafor</p>
-                            <p>Engineering and PM</p>
+                            <p>Engineering PM</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
@@ -181,8 +181,8 @@
                     <aside class="team-carousel_slide">
                         <img src="images/team/team5.png" alt="user6">
                         <span>
-                            <p>Stephenie <br> Obudu</p>
-                            <p>UI/UX Developer</p>
+                            <p>Stephenie <br> Ogbudu</p>
+                            <p>UI/UX Designer</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
