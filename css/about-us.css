@@ -40,8 +40,13 @@ body .about {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px 0;
   font-size: 25px;
+  height: 400px;
+  background-image: url("../images/banner2.jpg");
+}
+
+body .about h1 {
+  background: #0580b9;
 }
 
 body .profile {
