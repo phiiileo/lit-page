@@ -126,7 +126,7 @@
             </section>
 
             <section class="row4">
-                <h3>Check Us Out</h3>
+                <h3>Meet The Team</h3>
 
                 <article class="team-carousel">
                     <aside class="team-carousel_slide t-active">
@@ -188,7 +188,7 @@
                     <aside class="team-carousel_slide">
                         <img src="images/team/team8.jpg" alt="user6">
                         <span>
-                            <p>Kazeen <br> Asifat</p>
+                            <p>Kazeem <br> Asifat</p>
                             <p>Technical Team Lead</p>
                         </span>
                     </aside>
