@@ -37,8 +37,8 @@
                     <input type="file" name="file" id="file">
                 </div>
 
-                <input type="submit" value="Submit" class="btn"> <br>
-                <input type="reset" value="Reset Form" class="reset">
+                <input type="submit" value="Submit" class="btn submit"> <br>
+                <input type="reset" value="Reset Form" class="reset btn">
             </form>
         </section>
     </main>
