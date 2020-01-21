@@ -23,37 +23,16 @@
                 </div>
                 <div class="carousel1">
                     <div class="carousel1_slide active slide1">
-                        <img src="images/banner.png" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner1.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner2.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner3.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner.png" alt="">
-                    </div>
-                    <div class="carousel1_slide">
                         <img src="images/banner3.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner2.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner1.jpg" alt="">
+                        <img src="images/banner4.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner.png" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/rectangle.jpg" alt="">
-                    </div>
-                    <div class="carousel1_slide">
-                        <img src="images/banner.png" alt="">
+                        <img src="images/banner5.jpg" alt="">
                     </div>
                 </div>
                 <i class="fa fa-angle-left control control--left"></i>
@@ -147,32 +126,82 @@
             </section>
 
             <section class="row4">
-                <h3>Check Us Out</h3>
-                <article>
-                    <aside>
-                        <img src="images/Rectangle 29.png" alt="user1">
-                        <p>Kathryn Bell</p>
-                        <p>Front-End Developer</p>
+                <h3>Meet The Team</h3>
+
+                <article class="team-carousel">
+                    <aside class="team-carousel_slide t-active">
+                        <img src="images/team/team0.png" alt="user1">
+                        <span>
+                            <p>Godwin <br> Ikott</p>
+                            <p>CEO</p>
+                        </span>
                     </aside>
-                    <aside>
-                        <img src="images/Rectangle 30.png" alt="user2">
-                        <p>Jeromes Hawkins</p>
-                        <p>Technical Account Manager</p>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team1.png" alt="user2">
+                        <span>
+                            <p>Anthonia <br> Okafor</p>
+                            <p>Engineering PM</p>
+                        </span>
                     </aside>
-                    <aside>
-                        <img src="images/Rectangle 32.png" alt="user3">
-                        <p>Angel Howard</p>
-                        <p>Marketting Technologist</p>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team6.jpeg" alt="user2">
+                        <span>
+                            <p>Henry <br> Ogidiagba </p>
+                            <p>Frontend Developer</p>
+                        </span>
                     </aside>
-                    <aside>
-                        <img src="images/Rectangle 31.png" alt="user4">
-                        <p>Harold Black</p>
-                        <p>Data Analyst</p>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team7.jpeg" alt="user2">
+                        <span>
+                            <p>Emmanuel <br> Owojori</p>
+                            <p>Quality Technologist</p>
+                        </span>
                     </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team2.png" alt="user3">
+                        <span>
+                            <p>Chukwuemeka <br> Ibebukwu</p>
+                            <p>Software Architect</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team4.png" alt="user4">
+                        <span>
+                            <p>Odinekachukwu <br> Ishicheli</p>
+                            <p>Content Technologist/Digital Strategist</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team3.png" alt="user5">
+                        <span>
+                            <p>Temidayo <br> Oluyede</p>
+                            <p>Marketing Technologist</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team5.png" alt="user6">
+                        <span>
+                            <p>Stephenie <br> Ogbudu</p>
+                            <p>UI/UX Designer</p>
+                        </span>
+                    </aside>
+                    <aside class="team-carousel_slide">
+                        <img src="images/team/team8.jpg" alt="user6">
+                        <span>
+                            <p>Kazeem <br> Asifat</p>
+                            <p>Technical Team Lead</p>
+                        </span>
+                    </aside>
+
                 </article>
+                <li class="t-control">
+                    <i class="fa fa-arrow-left controlT control_left"></i>
+                    <i class="fa fa-arrow-right controlT control_right"></i>
+                </li>
+
             </section>
         </main>
-       <?php require_once "./Fragments/footer.php" ?>
+        <?php require_once "./Fragments/footer.php" ?>
     </section>
 </body>
 

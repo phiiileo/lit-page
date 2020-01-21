@@ -49,6 +49,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .row1 .carousel1 {
@@ -79,7 +80,7 @@ img {
 
 .row1 .cta {
   background-color: #cecece;
-  min-width: 350px;
+  width: 400px;
   height: 150px;
   padding: 0 20px;
   display: -webkit-box;
@@ -103,9 +104,10 @@ img {
 }
 
 .row1 .cta h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 36px;
   color: #333333;
+  text-align: center;
 }
 
 .row1 .cta button {
@@ -155,6 +157,10 @@ img {
 .row2 .log_details_container p {
   font-size: 16px;
   line-height: 24px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .7s ease-in-out;
+  transition: height .7s ease-in-out;
 }
 
 .row2 .services {
@@ -260,31 +266,111 @@ img {
 .row4 {
   background-color: #0580b9;
   color: #ffffff;
-  padding: 30px;
+  padding: 80px 30px;
   text-align: center;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
 }
 
 .row4 h3 {
   font-size: 34px;
   line-height: 51px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
-.row4 article aside {
-  width: 250px;
-  display: inline-block;
-  margin: 0 15px;
+.row4 .t-control {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
 }
 
-.row4 article aside img {
+.row4 .t-control i {
+  margin: 20px 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.row4 .t-control i:hover {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.row4 .team-carousel {
+  position: relative;
+  min-height: 200px;
+  margin-top: 40px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.row4 .team-carousel_slide {
+  width: 400px;
+  margin-right: 20px;
+  border-right: 1px solid white;
+}
+
+.row4 .team-carousel_slide img {
+  min-width: 250px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-right: 20px;
+}
+
+.row4 .team-carousel_slide span {
+  display: block;
   width: 100%;
-  height: 190px;
+  text-align: center;
 }
 
-.row4 article aside p {
+.row4 .team-carousel_slide span p {
   margin: 30px 0;
   font-size: 14px;
   line-height: 21px;
+}
+
+.row4 .team-carousel_slide span p:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.row4 .team-carousel .t-active {
+  left: 0% !important;
+  z-index: 2;
+}
+
+.row4 ::-webkit-scrollbar {
+  width: 1px;
+  height: 5px;
+}
+
+.row4 ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 5px;
+}
+
+.row4 ::-webkit-scrollbar-thumb {
+  background: #0580b9;
+}
+
+.row4 ::-webkit-scrollbar-thumb:hover {
+  background: darkblue;
 }
 
 @media screen and (max-width: 450px) {
@@ -317,6 +403,18 @@ img {
   }
   .row1 .cta h3 {
     font-size: 20px;
+  }
+  .row4 .team-carousel {
+    height: 400px;
+  }
+  .row4 .team-carousel_slide {
+    display: block;
+  }
+  .row4 .team-carousel_slide img {
+    width: 95%;
+  }
+  .row4 .team-carousel_slide span {
+    width: 100%;
   }
 }
 

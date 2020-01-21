@@ -11,8 +11,14 @@ body {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 0;
-    font-size: 25px;
+      font-size: 25px;
+    height: 400px;
+    background-image: url("../images/banner2.jpg");
+
+    h1{
+      background: #0580b9;
+
+    }
   }
 
   .profile {
@@ -45,7 +51,14 @@ body {
         text-align: center;
         list-style-position: inside;
       }
-    }
+     
+    } .core-values{
+
+        li{
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
 
     .card {
       background-color: #0580b923;

@@ -159,12 +159,13 @@ footer .contact {
 }
 
 footer .contact P {
-  word-break: break-all;
   margin: 10px 0;
+  font-size: 12px;
 }
 
 footer .contact P a {
   display: inline-block;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 560px) {
