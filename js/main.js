@@ -18,9 +18,12 @@ function automateSlider() {
     }
     else {
         if (init >= slide_stack - 1) {
+            $(".control--right").css("display", "none")
             return
         }
         else {
+            $(".control--left").css("display", "block")
+
             let active_slide = $(".carousel1 .active");
             let next_slide = active_slide.next();
             active_slide.css("left", "-100%").removeClass("active");
@@ -38,20 +41,23 @@ $(".control").click(function () {
 
     //left btn control
     if ($(this).hasClass("control--left")) {
-        if (init === 0) { }
+        if (init === 0) {$(this).css("display", "none") }
         else {
             active_slide.css("left", "100%").removeClass("active")
             prev_slide.addClass("active");
             init--
+            $(".control--right").css("display", "block")
+
         }
     }
     //right btn control
     else {
-        if (init >= slide_stack - 1) { }
+        if (init >= slide_stack - 1) { $(this).css("display", "none") }
         else {
             active_slide.css("left", "-100%").removeClass("active");
             next_slide.addClass("active");
             init++
+            $(".control--left").css("display", "block")
         }
     }
 })
