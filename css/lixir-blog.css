@@ -174,7 +174,7 @@ main .blog-body_aside .post-article {
   padding: 2%;
 }
 
-main .blog-body_aside .post-article h3 i.fa-plus {
+main .blog-body_aside .post-article h3 i.control {
   cursor: pointer;
   float: right;
   margin-top: 6px;

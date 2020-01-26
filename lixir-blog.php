@@ -20,7 +20,7 @@
             <aside class="blog-body_aside">
                 <section class="search-blog">
                     <form action="">
-                        <input name="paramter" type="text" placeholder="Search here...">
+                        <input name="paramter" type="text" placeholder="Search blog...">
                         <button><i class="fa fa-search"></i></button>
                     </form>
                 </section>
@@ -31,7 +31,7 @@
                 </section>
 
                 <section class="post-article">
-                    <h3>Post an Article <i class="fa fa-plus"></i></h3>
+                    <h3>Post an Article <i class="fa fa-plus control"></i></h3>
                     <form action="
                     ">
                         <div class="form-group">
