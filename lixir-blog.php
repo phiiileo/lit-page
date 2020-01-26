@@ -31,7 +31,7 @@
                 </section>
 
                 <section class="post-article">
-                    <h3>Post an Article</h3>
+                    <h3>Post an Article <i class="fa fa-plus"></i></h3>
                     <form action="
                     ">
                         <div class="form-group">
