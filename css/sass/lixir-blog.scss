@@ -88,7 +88,42 @@ main {
           justify-content: center;
         }
       }
+
+      .post-article {
+        border: 1px solid whitesmoke;
+        box-shadow: 0px 3px 5px grey;
+        padding: 2%;
+
+        form {
+          .form-group {
+            margin: 10px 0;
+            label {
+              display: block;
+            }
+            input,
+            textarea {
+              width: 100%;
+              border: 1px solid grey;
+              font-size: 15px;
+              padding: 5px 10px;
+            }
+          }
+          button {
+            background-color: $brand_color;
+            color: white;
+            border: 1px solid $brand_color;
+            cursor: pointer;
+            padding: 10px 30px;
+          }
+          button:hover{
+            background-color: transparent;
+            color: $brand_color;
+            transform: scale(.8);
+          }
+        }
+      }
     }
+
     &_content {
       .blog-post {
         width: 100%;

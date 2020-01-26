@@ -30,23 +30,30 @@
                     </articcle>
                 </section>
 
-                <!-- <section class="post-article">
+                <section class="post-article">
                     <h3>Post an Article</h3>
                     <form action="
                     ">
                         <div class="form-group">
-                            <label for="fullname">Name: </label>
+                            <label for="fullname">Your Name: </label>
                             <input type="text" name="poster_name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address: </label>
+                            <label for="email">Your Email Address: </label>
                             <input type="email" name="poster_email" required>
                         </div>
                         <div class="form-group">
-                            <label for="article-title">Article Heading</label>
+                            <label for="article_title">Article Heading:</label>
+                            <input type="text" name="article_title" required>
                         </div>
+                        <div class="form-group">
+                            <label for="article_content">Write Article: </label>
+                            <textarea name="article_content" id="article_content" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button>Submit Article</button>
                     </form>
-                </section> -->
+                </section>
             </aside>
             <section class="blog-body_content">
                 <article class="blog-post">
