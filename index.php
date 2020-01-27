@@ -34,6 +34,10 @@
                     <div class="carousel1_slide">
                         <img src="images/banner5.jpg" alt="">
                     </div>
+                    <div class="carousel1_slide">
+                        <img src="images/banner3.jpg" alt="">
+                    </div>
+
                 </div>
                 <i class="fa fa-angle-left control control--left"></i>
 
